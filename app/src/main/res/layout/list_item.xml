@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/time_now_list"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/view_1"
+        android:textColor="#979897"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/08/2021 18:21"
+        android:textSize="14dp"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:layout_below="@id/view_1"
+        android:id="@+id/linear"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="#0AEC21"
+            android:id="@+id/buy_sell_list"
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUY"
+            android:textSize="20dp"
+            />
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price (USDT) "
+                android:textColor="#655F5F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:id="@+id/price_usdt_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:maxLength="8"
+                android:text="null"
+                android:textColor="#4C4949"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filled (BTC)"
+                android:textColor="#655F5F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:maxLength="8"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/filled_data_list"
+                android:text="null"
+                android:textSize="16dp"
+                android:textColor="#4C4949"
+                android:gravity="end"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fee (BTC)"
+                android:textColor="#655F5F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:maxLength="8"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fee_list"
+                android:text="null"
+                android:textSize="16dp"
+                android:textColor="#4C4949"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total (USDT)"
+                android:textColor="#655F5F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:maxLength="8"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/total_list"
+                android:text="null"
+                android:textSize="16dp"
+                android:textColor="#4C4949"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#070505" />
+
+</RelativeLayout>

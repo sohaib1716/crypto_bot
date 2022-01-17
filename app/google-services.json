@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "399287794599",
+    "firebase_url": "https://crypto1-adaa3-default-rtdb.firebaseio.com",
+    "project_id": "crypto1-adaa3",
+    "storage_bucket": "crypto1-adaa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399287794599:android:e33b80f99c91c3f98f9482",
+        "android_client_info": {
+          "package_name": "com.example.crypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399287794599-lvgkfumd1is9kr40l2kb8asjiduphenl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxCbKdTerEbAeNadPjbx1GuGJKZR1t0Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399287794599-lvgkfumd1is9kr40l2kb8asjiduphenl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399287794599:android:c4d26a26b86a599e8f9482",
+        "android_client_info": {
+          "package_name": "com.example.crypto_bot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399287794599-lvgkfumd1is9kr40l2kb8asjiduphenl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxCbKdTerEbAeNadPjbx1GuGJKZR1t0Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399287794599-lvgkfumd1is9kr40l2kb8asjiduphenl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
